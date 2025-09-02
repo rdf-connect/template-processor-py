@@ -2,12 +2,12 @@ import logging
 from dataclasses import dataclass
 from logging import getLogger, Logger
 
-from rdfc_runner import Processor, ProcessorArgs, Reader, Writer
+from rdfc_runner import Processor, Reader, Writer
 
 
 # --- Type Definitions ---
 @dataclass
-class TemplateArgs(ProcessorArgs):
+class TemplateArgs:
     reader: Reader
     writer: Writer
 
