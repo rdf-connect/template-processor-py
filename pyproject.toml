@@ -11,8 +11,8 @@ license = "MIT"
 dependencies = [
     "pytest>=8.4.1",
     "pytest-asyncio>=1.1.0",
-    "rdfc-proto>=0.0.1",
-    "rdfc-runner>=0.0.3",
+    "rdfc-proto>=1.0.0",
+    "rdfc-runner>=1.0.0",
 ]
 
 [project.urls]
