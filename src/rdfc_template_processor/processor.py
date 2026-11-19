@@ -23,7 +23,7 @@ class TemplateProcessor(Processor[TemplateArgs]):
     async def init(self) -> None:
         """This is the first function that is called (and awaited) when creating a processor.
         This is the perfect location to start things like database connections."""
-        self.logger.debug("Initializing TemplateProcessor with args: {}", self.args)
+        self.logger.debug("Initializing TemplateProcessor with args: {}".format(self.args))
 
     async def transform(self) -> None:
         """Function to start reading channels.
