@@ -18,7 +18,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://rdf-connect.github.io"
 Repository = "https://github.com/rdf-connect/template-processor-py"
-Issues = "https://github.com/rdf-connect/template-processor-/issues"
+Issues = "https://github.com/rdf-connect/template-processor-py/issues"
 
 [build-system]
 requires = ["hatchling"]
